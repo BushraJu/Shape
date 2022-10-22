@@ -16,7 +16,7 @@ public class Shape {
         Rectangle r = new Rectangle(s.nextInt(), s.nextInt()); 
         System.out.println("Area of Rectangle = " + r.getArea()); 
         
-       Perimeter p = new Perimeter(s.nextInt(), s.nextInt()); 
+       Rectangle p = new Rectangle(s.nextInt(), s.nextInt()); 
         System.out.println("Perimeter of Rectangle = " + p.getPerimeter()); 
     }
     
