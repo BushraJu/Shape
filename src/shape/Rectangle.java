@@ -15,7 +15,9 @@ public class Rectangle {
     }
     
     public int getArea() { 
-        return 0; // write code to calculate area here
+        return breadth*length; /* To calculate the area of the rectangle we must
+        multiply the length by the width
+        */
     } 
     
     // write code to calculate perimeter here
